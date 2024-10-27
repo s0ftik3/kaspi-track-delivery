@@ -79,7 +79,7 @@ export class Bot {
 
         if (!hasAnyData)
             return ctx.replyWithHTML(
-                `❌ <i>Отчет по отслеживанию для заказа №${traceId}не найден.</i>`,
+                `❌ <i>Отчет по отслеживанию для заказа №${traceId} не найден.</i>`,
                 messageExtra
             )
 
